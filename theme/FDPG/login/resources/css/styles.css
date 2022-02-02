@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*backend/docker/keycloak/themes/custom/login/resources/css/styles.css*/
+:root {
+  --pf-global--primary-color--100: #94C11B;
+  --pf-global--primary-color--200: #b0ee0f;
+  --pf-global--secondary-color--100: #4D7CFE;
+  --default-background-color: #97A1CDFF;
+  --link-hover-color: #02679a;
+  --primary-color: #94C11B;
+  --secondary-color: #4D7CFE;
+  --link-color: #1E6EA8;
+  --heading-color: #1B1E24;
+  --text-color: #778CA2;
+  --gray-color: #F8FAFB;
+  --dark-gray: #F2F4F6;
+  --border-color: #E8ECEF;
+  --icon-color: #778CA2;
+}
+
+body {
+  font-family: "Titillium Web",sans-serif;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.login-pf {
+  background: white none;
+}
+
+.login-pf body {
+  background: white none;
+}
+
+.login-pf-page {
+  background-image: url('https://www.medizininformatik-initiative.de/themes/custom/mii/assets/img/img_bg_header_672x160.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--gray-color);
+  padding: 70px 0;
+}
+
+.login-pf a:hover {
+  color: var(--link-hover-color);
+  text-decoration: none;
+}
+
+.pf-c-form-control {
+  --pf-global--primary-color--100: unset;
+}
+
+#kc-header-wrapper {
+  visibility: hidden;
+}
+
+footer {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+a.footerlnk {
+  color: var(--text-color);
+}
