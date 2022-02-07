@@ -107,9 +107,9 @@
         </div>
         <div class="col-md-6 col-12 text-end">
           <p class="m-0 py-4">
-            <a class="footerlnk" href="https://forschen-fuer-gesundheit.de/de/Datenschutzerkl%c3%a4rung">Datenschutzerklärung</a>
+            <a class="footerlnk" href="${msg("privacyStatementUrl")}">${msg("privacyStatement")}</a>
             &nbsp;
-            <a class="footerlnk" href="https://forschen-fuer-gesundheit.de/de/impressum">Impressum</a></p>
+            <a class="footerlnk" href="${msg("legalNoticeUrl")}">${msg("legalNotice")}</a></p>
         </div>
       </div>
     </div>
